@@ -175,13 +175,13 @@ while index < noOfPlayers {
 /*Sending letters to Parents*/
 print("\nTeam Dragon:")
 for i in 0..<teamDragons.count{
-    print ("Dear \(teamDragons[i]["Guardian"]) your child \(teamDragons[i]["Name"]) is selected in team Dragons and their 1st practice match is on March 17, 1pm. Please attend the match to encourage your child. \n Thanks, \n Coach")
+    print ("Dear \(teamDragons[i]["Guardian"]!) your child \(teamDragons[i]["Name"]!) is selected in team Dragons and their 1st practice match is on March 17, 1pm. Please attend the match to encourage your child. \n Thanks, \n Coach")
 }
 print("\nTeam Sharks:")
 for i in 0..<teamSharks.count{
-    print ("Dear \(teamSharks[i]["Guardian"]) your child \(teamSharks[i]["Name"]) is selected in team Sharks and their 1st practice match is on March 17, 3pm. Please attend the match to encourage your child. \n Thanks, \n Coach")
+    print ("Dear \(teamSharks[i]["Guardian"]!) your child \(teamSharks[i]["Name"]!) is selected in team Sharks and their 1st practice match is on March 17, 3pm. Please attend the match to encourage your child. \n Thanks, \n Coach")
 }
 print("\nTeam Raptors:")
 for i in 0..<teamRaptors.count{
-    print ("Dear \(teamRaptors[i]["Guardian"]) your child \(teamRaptors[i]["Name"]) is selected in team Raptors and their 1st practice match is on March 18, 1pm. Please attend the match to encourage your child. \n Thanks, \n Coach")
+    print ("Dear \(teamRaptors[i]["Guardian"]!) your child \(teamRaptors[i]["Name"]!) is selected in team Raptors and their 1st practice match is on March 18, 1pm. Please attend the match to encourage your child. \n Thanks, \n Coach")
 }
